@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h3>Awareness</h3>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'School Safety')">School Safety Programmes</button>
+  <button class="tablinks" onclick="openCity(event, 'Community')">Community Awareness programmes</button>
+</div>
+
+<div id="School Safety" class="tabcontent">
+  <h3>School Safety Programmes(by NDRF/SDRF)</h3>
+  <p>NDMA in partnership with the 22 States/UTs implemented ‘National School Safety Programme (NSSP)’, in 8600 schools in 43 districts spread over 22 States/UTs of the country falling in seismic zone IV & V with the aim to sensitize children and the school community on disaster preparedness and safety measures.</p>
+  <p> Under the project, following activities were undertaken:</p>
+<p>
+<ul>
+<li>Formulation of National Disaster Management Guidelines on School Safety Policy, 2016.</li>
+<li>Preparation of Teachers Training Module on School Safety by NIDM.</li>
+<li>Translation into regional language and printing of Teacher’s Training Modules.</li>
+<li>Training of Trainers Programme (15 trainers per district).</li>
+<li>Training of teachers (500 teachers, officials etc per district).</li>
+<li>Preparation of School Disaster Management Plans in 200 school in each 43 districts.</li>
+<li>Review and approval of School DM Plans prepared by 200 schools in each of 43 districts.</li>
+<li>Disaster Preparedness Kits in 200 schools in each of 43 districts.</li>
+<li>Mock drills in 200 schools in each of 43 districts.</li>
+<li>Translation, printing, dissemination of IEC Material.</li>
+<li>Sensitization Programmes at State/UT level.</li>
+<li>Grant-in-aid to State Education Departments for sensitization programme and awareness activities.</li>
+<li>Rapid Visual Survey in 200 schools in each of 43 districts.</li>
+<li>Non-Structural Mitigation Measures in 200 schools in each of 43 districts.</li>
+<li>Structural Retrofitting of one school each in 22 States/UTs.</li>
+</p>
+<ol>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/NSSP%20Draft.training%20of%20MTs%20module.pdf">Training module for Master Trainers on School Safety (15.8 MB) </a></li>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/NSSP-IEC-Compedium-21-11.pdf"> National School Safety Programme - IEC Compendium (758 KB)</a></li> 
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/particpnats.pdf">List of Master Trainer Programme on School Safety (175 KB)</a></li>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/checklist-22-1-13.pdf">Checklist for Non-structural elements in schools under National School Safety Programme (0299 KB) </a></li>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/building%20material-school-6-2-13.pdf">Non-structural risks in School Buildings (068.8 KB) </a></li>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/NSSPmastertraining.pdf">Training of Master Trainers Programme on School Safety (154 KB) </a></li>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/Final_NSSP_brochure%5b2%5d%20English.pdf">National School Safety Programme(NSSP)-Brochure (3.54 MB)</a> </li>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/NSSP_brochure_Hindi%5b1%5d.pdf"> National School Safety Programme(NSSP)-Brochure (Hindi) (5.26 MB)</a></li>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/FMManualfinal11.pdf">Financial Management Manual of National School Safety Programme (441 KB) </a> </li>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/ModelSchoolDMplantemplateinHindi.pdf">School DM plan template and guidance note developed under National School Safety Programme (Hindi) (5.45 MB)</a> </li>
+<li><a href="https://ndma.gov.in/sites/default/files/PDF/school_safety/ModelSchoolDMplantemplateenglish.pdf">School DM plan template and guidance note developed under National School Safety Programme (English) (5.15 MB) </a></li>
+</ol>
+</p>
+</div>
+
+<div id="Community" class="tabcontent">
+  <h3>Community Awareness Programmes </h3>
+  <p><h2>HTML Table</h2>
+    <table>
+      <tr>
+        <th>S.NO</th>
+        <th>Title</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/DOs_03012016.PDF">Dos & Don’ts on Disaster Response for Use of District Magistrates during Natural Disaster</a></td>
+        <td>2016</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/DM-The%20Development%20Perspective.pdf">Disaster Management- The Development Perspective</a></td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/VOL-1(A).pdf">Model Amendment in Town and Country Planning Legislations, Regulation for Land Use Zoning and Building Byelaws for Structural Safety: Volume 1A</a></td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/VOL-1(B).pdf">Model Amendment in Town and Country Planning Legislations, Regulation for Land Use Zoning and Building Byelaws for Structural Safety: Volume 1B</a></td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/Kashmir Final.pdf">Earthquake Resistant Reconstruction and New Construction of Masonary Building in Jammu and Kashmir</a></td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>6.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/School Safety Version 1.0.pdf">School Safety Handbook</a></td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>7.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/ICT for Disaster Risk Reduction.pdf">ICT in Disaster Risk Reduction</a></td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>8.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/VOLUME I Prop_Am_Legi_Regu_Addi Prov_for Na Haz in India.pdf">Model Amendment in Town and Country Planning Legislations, Regulation for Land Use Zoning and Building Byelaws for Structural Safety: Volume 1</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>9.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/VOLUME II Reference Documents.pdf">Model Amendment in Town and Country Planning Legislations, Regulation for Land Use Zoning and Building Byelaws for Structural Safety: Volume II (Reference Document)</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>10.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/EQ_G_H_Dwellers_English.pdf">Earthquake Emergency Survival Guide</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/VOLUME II Reference Documents.pdf">An Earthquake Preparedness Guide</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>12.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/Towards A Safer India-CBSE.pdf">Towards a Safer India</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>13.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/knowledge-manageme.pdf">Knowledge Management in Disaster Risk Reduction</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>14.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/Primer for Parliamentarians.pdf">Hazards, Disasters and your Community</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>15.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/DRM & The role of Corporate Sector.pdf">Disaster Risk Management and the Role of the Corporate Sector</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>16.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/Building a Techno Legal Regime.pdf">Building a New Techno- Legal Regime for a Safer India</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>17.</td>
+        <td><a href="https://ndmindia.mha.gov.in/images/public-awareness/SelfAssessment.pdf">Self-Assessment of Earthquake Damageability of Residential Brick Buildings in NCT of Delhi (also NCR)</a></td>
+        <td></td>
+      </tr>
+    </table>
+  </p> 
+</div>
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 
+
